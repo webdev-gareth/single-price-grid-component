@@ -103,3 +103,16 @@ p.para2 {
 .h3-Card2 {
     color: rgba(255, 255, 255, 0.8);
 }
+@media only screen and (max-width: 650px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .card2 {
+        border-bottom-left-radius: 0;
+    }
+    .card3 {
+        border-bottom-left-radius: 7px;
+    }
+}
